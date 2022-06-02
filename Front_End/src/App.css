@@ -146,6 +146,7 @@ section{
     height:5rem;
     border:var(--border);
     overflow: hidden;
+    
     background:#fff;
     display:flex;
     align-items: center;
@@ -193,19 +194,19 @@ section{
     background:var(--green);
 }
 
-.header .header-2 .navbar{
+.header .header-2 .navbar1{
     text-align: right;
     padding-right: 20px;
 }
 
-.header .header-2 .navbar a{
+.header .header-2 .navbar1 a{
     color:#fff;
     display: inline-block;
     padding:1.2rem;
     font-size: 1.7rem;
 }
 
-.header .header-2 .navbar a:hover{
+.header .header-2 .navbar1 a:hover{
     background:var(--dark-color);
 }
 
@@ -337,17 +338,20 @@ section{
 }
 
 .home .row .content{
-    flex:1 1 42rem;
+    flex:1 1 22rem;
 }
 
 .home .row .books-slider{
     flex:1 1 42rem;
+    overflow: initial;
     text-align: center;
     margin-top: 2rem;
 }
 
 .home .row .books-slider a img{
-    height: 25rem;
+    margin-top: 8rem;
+    padding-right: -50px;
+    height: 16rem;
 }
 
 .home .row .books-slider a:hover img{
@@ -356,7 +360,8 @@ section{
 
 .home .row .books-slider .stand{
     width:100%;
-    margin-top: -2rem;
+    margin-top: 20rem;
+    margin-left: 85px;
 }
 
 .home .row .content h3{

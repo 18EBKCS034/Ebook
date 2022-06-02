@@ -1,7 +1,15 @@
 import React from 'react';
+
 import img1 from '../images/book-1.png';
+import img2 from '../images/book-2.png';
+import img3 from '../images/book-3.png';
+import img4 from '../images/book-4.png';
+import img5 from '../images/book-5.png';
+import img6 from '../images/book-6.png';
+import img7 from '../images/stand.png';
 
 export default function BodyHomepage() {
+ 
     return (
         <>
             <section class="home" id="home">
@@ -14,16 +22,16 @@ export default function BodyHomepage() {
                         <a href="#" class="btn">shop now</a>
                     </div>
 
-                    <div class="swiper books-slider">
-                        <div class="swiper-wrapper">
+                    <div class="swiper books-slider ">
+                        <div class="swiper-wrapper carousel-caption d-none d-md-block">
                             <a href="#" class="swiper-slide"><img src={img1} alt="" /></a>
-                            <a href="#" class="swiper-slide"><img src="./image/book-2.png" alt="" /></a>
-                            <a href="#" class="swiper-slide"><img src="image/book-3.png" alt="" /></a>
-                            <a href="#" class="swiper-slide"><img src="image/book-4.png" alt="" /></a>
-                            <a href="#" class="swiper-slide"><img src="image/book-5.png" alt="" /></a>
-                            <a href="#" class="swiper-slide"><img src="image/book-6.png" alt="" /></a>
+                            <a href="#" class="swiper-slide"><img src={img2} alt="" /></a>
+                            <a href="#" class="swiper-slide"><img src={img3} alt="" /></a>
+                            <a href="#" class="swiper-slide"><img src={img4} alt="" /></a>
+                            <a href="#" class="swiper-slide"><img src={img5} alt="" /></a>
+                            {/* <a href="#" class="swiper-slide"><img src={img6} alt="" /></a> */}
                         </div>
-                        <img src="image/stand.png" class="stand" alt="" />
+                        <img src={img7} class="stand" alt="" />
                     </div>
 
                 </div>

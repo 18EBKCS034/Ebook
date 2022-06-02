@@ -27,7 +27,7 @@ export default function Header() {
         </div>
 
         <div class="header-2">
-            <nav class="navbar">
+            <nav class="navbar1">
                 <a href="#home">home</a>
                 <a href="#featured">featured</a>
                 <a href="#arrivals">arrivals</a>
