@@ -9,7 +9,8 @@ import img6 from '../images/book-6.png';
 import img7 from '../images/stand.png';
 
 export default function BodyHomepage() {
- 
+
+
     return (
         <>
             <section class="home" id="home">
@@ -108,7 +109,7 @@ export default function BodyHomepage() {
                                 <a href="#" class="fas fa-eye"></a>
                             </div>
                             <div class="image">
-                                <img src="image/book-2.png" alt="" />
+                                <img src={img2} alt="" />
                             </div>
                             <div class="content">
                                 <h3>featured books</h3>
@@ -124,7 +125,7 @@ export default function BodyHomepage() {
                                 <a href="#" class="fas fa-eye"></a>
                             </div>
                             <div class="image">
-                                <img src="image/book-3.png" alt="" />
+                                <img src={img6} alt="" />
                             </div>
                             <div class="content">
                                 <h3>featured books</h3>
@@ -140,7 +141,7 @@ export default function BodyHomepage() {
                                 <a href="#" class="fas fa-eye"></a>
                             </div>
                             <div class="image">
-                                <img src="image/book-4.png" alt="" />
+                                <img src={img3} alt="" />
                             </div>
                             <div class="content">
                                 <h3>featured books</h3>
@@ -156,7 +157,7 @@ export default function BodyHomepage() {
                                 <a href="#" class="fas fa-eye"></a>
                             </div>
                             <div class="image">
-                                <img src="image/book-5.png" alt="" />
+                                <img src={img4} alt="" />
                             </div>
                             <div class="content">
                                 <h3>featured books</h3>
@@ -172,7 +173,7 @@ export default function BodyHomepage() {
                                 <a href="#" class="fas fa-eye"></a>
                             </div>
                             <div class="image">
-                                <img src="image/book-6.png" alt="" />
+                                <img src={img5} alt="" />
                             </div>
                             <div class="content">
                                 <h3>featured books</h3>
@@ -188,7 +189,7 @@ export default function BodyHomepage() {
                                 <a href="#" class="fas fa-eye"></a>
                             </div>
                             <div class="image">
-                                <img src="image/book-7.png" alt="" />
+                                <img src={img6} alt="" />
                             </div>
                             <div class="content">
                                 <h3>featured books</h3>
@@ -196,57 +197,7 @@ export default function BodyHomepage() {
                                 <a href="#" class="btn">add to cart</a>
                             </div>
                         </div>
-
-                        <div class="swiper-slide box">
-                            <div class="icons">
-                                <a href="#" class="fas fa-search"></a>
-                                <a href="#" class="fas fa-heart"></a>
-                                <a href="#" class="fas fa-eye"></a>
-                            </div>
-                            <div class="image">
-                                <img src="image/book-8.png" alt="" />
-                            </div>
-                            <div class="content">
-                                <h3>featured books</h3>
-                                <div class="price">$15.99 <span>$20.99</span></div>
-                                <a href="#" class="btn">add to cart</a>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide box">
-                            <div class="icons">
-                                <a href="#" class="fas fa-search"></a>
-                                <a href="#" class="fas fa-heart"></a>
-                                <a href="#" class="fas fa-eye"></a>
-                            </div>
-                            <div class="image">
-                                <img src="image/book-9.png" alt="" />
-                            </div>
-                            <div class="content">
-                                <h3>featured books</h3>
-                                <div class="price">$15.99 <span>$20.99</span></div>
-                                <a href="#" class="btn">add to cart</a>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide box">
-                            <div class="icons">
-                                <a href="#" class="fas fa-search"></a>
-                                <a href="#" class="fas fa-heart"></a>
-                                <a href="#" class="fas fa-eye"></a>
-                            </div>
-                            <div class="image">
-                                <img src="image/book-10.png" alt="" />
-                            </div>
-                            <div class="content">
-                                <h3>featured books</h3>
-                                <div class="price">$15.99 <span>$20.99</span></div>
-                                <a href="#" class="btn">add to cart</a>
-                            </div>
-                        </div>
-
                     </div>
-
                     <div class="swiper-button-next"></div>
                     <div class="swiper-button-prev"></div>
 
@@ -258,7 +209,7 @@ export default function BodyHomepage() {
 
             {/* <!-- newsletter section starts --> */}
 
-            {/* <section class="newsletter">
+            <section class="newsletter">
 
                 <form action="">
                     <h3>subscribe for latest updates</h3>
@@ -266,7 +217,10 @@ export default function BodyHomepage() {
                     <input type="submit" value="subscribe" class="btn" />
                 </form>
 
-            </section> */}
+            </section>
+
+
+        
 
             {/* <!-- newsletter section ends --> */}
 
@@ -650,72 +604,6 @@ export default function BodyHomepage() {
                 </div>
 
             </section> */}
-
-            {/* <!-- blogs section ends --> */}
-
-            {/* <!-- footer section starts  --> */}
-
-            {/* <section class="footer">
-
-                <div class="box-container">
-
-                    <div class="box">
-                        <h3>our locations</h3>
-                        <a href="#"> <i class="fas fa-map-marker-alt"></i> india </a>
-                        <a href="#"> <i class="fas fa-map-marker-alt"></i> USA </a>
-                        <a href="#"> <i class="fas fa-map-marker-alt"></i> russia </a>
-                        <a href="#"> <i class="fas fa-map-marker-alt"></i> france </a>
-                        <a href="#"> <i class="fas fa-map-marker-alt"></i> japan </a>
-                        <a href="#"> <i class="fas fa-map-marker-alt"></i> africa </a>
-                    </div>
-
-                    <div class="box">
-                        <h3>quick links</h3>
-                        <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
-                        <a href="#"> <i class="fas fa-arrow-right"></i> featured </a>
-                        <a href="#"> <i class="fas fa-arrow-right"></i> arrivals </a>
-                        <a href="#"> <i class="fas fa-arrow-right"></i> reviews </a>
-                        <a href="#"> <i class="fas fa-arrow-right"></i> blogs </a>
-                    </div>
-
-                    <div class="box">
-                        <h3>extra links</h3>
-                        <a href="#"> <i class="fas fa-arrow-right"></i> account info </a>
-                        <a href="#"> <i class="fas fa-arrow-right"></i> ordered items </a>
-                        <a href="#"> <i class="fas fa-arrow-right"></i> privacy policy </a>
-                        <a href="#"> <i class="fas fa-arrow-right"></i> payment method </a>
-                        <a href="#"> <i class="fas fa-arrow-right"></i> our serivces </a>
-                    </div>
-
-                    <div class="box">
-                        <h3>contact info</h3>
-                        <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
-                        <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
-                        <a href="#"> <i class="fas fa-envelope"></i> shaikhanas@gmail.com </a>
-                        <img src="image/worldmap.png" class="map" alt="" />
-                    </div>
-
-                </div>
-
-                <div class="share">
-                    <a href="#" class="fab fa-facebook-f"></a>
-                    <a href="#" class="fab fa-twitter"></a>
-                    <a href="#" class="fab fa-instagram"></a>
-                    <a href="#" class="fab fa-linkedin"></a>
-                    <a href="#" class="fab fa-pinterest"></a>
-                </div>
-
-                <div class="credit"> created by <span>mr. web designer</span> | all rights reserved! </div>
-
-            </section> */}
-
-            {/* <!-- footer section ends --> */}
-
-            {/* <!-- loader  --> */}
-
-            {/* <div class="loader-container">
-                <img src="image/loader-img.gif" alt="" />
-            </div> */}
 
 
 

@@ -46,7 +46,7 @@ function fadeOut(){
   setTimeout(loader, 4000);
 }
 
-var swiper = new swiper(".books-slider", {
+var swiper = new Swiper(".books-slider", {
   loop:true,
   centeredSlides: true,
   autoplay: {

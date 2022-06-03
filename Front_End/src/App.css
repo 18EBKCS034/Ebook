@@ -406,15 +406,19 @@ section{
 }
 
 .featured .featured-slider .box{
-    margin:2rem 0;
     position: relative;
+    width: 23%;
     overflow: hidden;
     border:var(--border);
     text-align: center;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
 }
 
 .featured .featured-slider .box:hover{
     border:var(--border-hover);
+    border-radius: 20px;
 }
 
 .featured .featured-slider .box .image{
@@ -427,7 +431,7 @@ section{
 }
 
 .featured .featured-slider .box .image img{
-    height: 25rem;
+    height: 20rem;
 }
 
 .featured .featured-slider .box .icons{
@@ -476,8 +480,18 @@ section{
     text-decoration: line-through;
 }
 
-.swiper-button-next,
+.swiper-button-next
+{
+    border:var(--border-hover);
+    height:4rem;
+    width:4rem;
+    color:var(--black);
+    background: rgb(255, 255, 255);
+   border-radius: 5px;
+}
 .swiper-button-prev{
+    border-radius: 5px;
+    margin-left: -10px;
     border:var(--border-hover);
     height:4rem;
     width:4rem;
