@@ -10,13 +10,7 @@ export default function Header() {
 
         <div class="header-1">
 
-            <a href="#" class="logo"> <i class="fas fa-book"></i> bookly </a>
-
-            <form action="" class="search-form">
-                <input type="search" name="" placeholder="search here..." id="search-box"/>
-                    <label for="search-box" class="fas fa-search"></label>
-            </form>
-
+            <a href="#" class="logo" style={{textDecoration:"none"}}> <i class="fas fa-book"></i> bookly </a>
             <div class="icons">
                 <div id="search-btn" class="fas fa-search"></div>
                 <a href="#" class="fas fa-heart"></a>
@@ -29,10 +23,10 @@ export default function Header() {
         <div class="header-2">
             <nav class="navbar1">
                 <a href="#home">home</a>
-                <a href="#featured">featured</a>
-                <a href="#arrivals">arrivals</a>
-                <a href="#reviews">reviews</a>
-                <a href="#blogs">blogs</a>
+                <a href="#featured">Courses</a>
+                <a href="#arrivals">Categories</a>
+                <a href="#arrivals">Book Summary</a>
+                <a href="#blogs">Login/Signup</a>
             </nav>
         </div>
 
