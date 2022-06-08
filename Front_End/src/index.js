@@ -6,14 +6,17 @@ import reportWebVitals from './reportWebVitals';
 import Header from './component/Header';
 import BodyHomepage from './component/BodyHomepage';
 import Footer from './component/Footer';
+import Categories from './component/Categories';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
    <App/>
-    <Header/>
+    {/* <Header/>
     <BodyHomepage/>
-    <Footer/>
+    <Footer/> */}
+   <Categories/>
+
   </React.StrictMode>
 );
 
