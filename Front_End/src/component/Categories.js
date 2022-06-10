@@ -4,11 +4,13 @@ import img1 from '../images/book-1.png';
 import img2 from '../images/book-2.png';
 import img3 from '../images/book-3.png';
 import img4 from '../images/book-4.png';
+import Carousel from './Carousel';
 
 export default function Categories() {
     return (
         <>
             <Header />
+            <Carousel/>
             <div className='body1'>
                 <div class="container1">
                     <div class="card1">

@@ -7,6 +7,7 @@ import Header from './component/Header';
 import BodyHomepage from './component/BodyHomepage';
 import Footer from './component/Footer';
 import Categories from './component/Categories';
+import Carousel from './component/Carousel';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,8 +15,9 @@ root.render(
    <App/>
     {/* <Header/>
     <BodyHomepage/>
-    <Footer/> */}
-   <Categories/>
+    <Footer/>  */}
+ <Categories/>
+   {/* <Carousel/> */}
 
   </React.StrictMode>
 );
